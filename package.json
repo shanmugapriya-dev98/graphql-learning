@@ -1,0 +1,19 @@
+{
+  "name": "graphql-learning",
+  "version": "1.0.0",
+  "description": "To create endpoints using graphql and apollo server",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc",
+    "start": "npm run compile && node ./dist/index.js"
+  },
+  "author": "Shanmuga Priya",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@apollo/server": "^4.11.2",
+    "@types/node": "^22.10.2",
+    "graphql": "^16.10.0",
+    "typescript": "^5.7.2"
+  }
+}
